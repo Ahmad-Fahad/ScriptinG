@@ -1,13 +1,13 @@
 # floating point 3 decimal value 
 
 
-read N
-sum=0
-for(( i=0; i<N; i++ ))
-do 
-	read temp
-	sum=$((sum+temp))
+read all
+
+for ((i=0;i<$all;i++)) ; do
+    read num
+    sum=$((sum + num))
 done
 
-avg=$((sum/N))
-echo $avg
+result=$(echo "$sum/$all" | bc -l)
+
+printf "%.3f" "$result"
