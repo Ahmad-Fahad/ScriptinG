@@ -11,7 +11,7 @@ case $option in
 3) cmmt=Code_Archieve;;
 4) cmmt=Code_Algorithms;;
 5) cmmt=Code_Experiment_Research;;
-6) read -p "Commit Message [Use _ instead of space]: " cmmt;;
+6) read -p "[Commit Message ]: " cmmt;;
 *) echo "Not a Valid Option"
 esac
 
