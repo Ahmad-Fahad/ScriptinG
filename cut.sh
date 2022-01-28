@@ -26,3 +26,6 @@ cut -d' ' -f4
 
 #1st 3 words
 cut -d' ' -f1-3
+
+# column 2 to last
+cut -f2-
