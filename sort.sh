@@ -10,3 +10,8 @@ sort -rnk2 -t$'\t'
 # accending order
 
 sort -nk2 -t$'\t'
+
+#  bar ( | ) seperated data
+sort -rnk2 -t'|'
+
+
